@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B4D8;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ADE8F4;
+    border-radius: 1rem;
+    min-height: 50vh;
+    width: 50vh;
+    padding: 2.5rem;
+    color: #03045E;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    background-color: #03045E;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+form {
+    margin: 2rem 0 1rem 0 ;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 0.25rem;
+}
+
+form input, 
+button,
+select {
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    height: 2rem;
+    margin: 0.25rem 0 1rem;
+}
+
+form input {
+    border: 2px solid #90E0EF;
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    color: #03045E;
+}
+
+form input:focus-within {
+    border: 3px solid #0096C7;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.drop-down i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    width: 3rem;
+    padding: 0 0.25rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+}
+
+.select-container select {
+    margin-top: 1rem;
+    background-color: #ADE8F4;
+    font-size: 1rem;
+    width: auto;
+    color: #03045E;
+    cursor: pointer;
+}
+
+.msg {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form button {
+    background-color: #0077B6;
+    color: #fff;
+    font-size: 1.15rem;
+    height: 2.4rem;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    background-color: #023E8A;
+}
+
+@media (max-width: 350px) {
+    form button {
+        font-size: 1rem;
+        width: 70%;
+    }
+}

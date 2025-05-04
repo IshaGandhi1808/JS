@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    border-radius: 2rem;
+    width: 60vh;
+    height: 60vh;
+    background-color: #dcccff;
+    padding: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+h1 {
+    letter-spacing: 1.25px;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #f6f2ff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #150578;
+}
+
+@media (max-width: 524px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        height: 70vh;
+    }
+}
+
+
+.main {
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    scale: 1.05;
+}
+
+.btn:active {
+    /* box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+}
+
+p {
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #150578;
+    font-weight: 600;
+}
+
+@media (max-width: 413px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .container {
+        height: 80vh;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 366px) {
+    h1 {
+        font-size: 1.15rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .container {
+        height: 85vh;
+        padding: 1rem;
+    }
+}
+
+
+#white {
+    background-color: #fff;
+}
+
+#black {
+    background-color: #000;
+}
+#gray {
+    background-color: gray;
+}
+
+#darkblue {
+    background-color: darkblue;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#plum {
+    background-color: plum;
+}
+
+#skyblue {
+    background-color: skyblue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#d0f4de {
+    background-color: #d0f4de;
+}
+
+#fdffb6 {
+    background-color: #fdffb6;
+}
+
+#ffadad {
+    background-color: #ffadad;
+}
+
+#a0c4ff {
+    background-color: #a0c4ff;
+}
+
+/* #ffc6ff {
+    background-color: #ffc6ff;
+} */
+
+#c0fdff {
+    background-color: #c0fdff;
+}
+
+#dvoilete {
+    background-color: #7678ed;
+}
+
+#f19c79 {
+    background-color: #f19c79;
+}
+
+#fdc500 {
+    background-color: #fdc500;
+}
+
+#dgreen {
+    background-color: #00509d;
+}
